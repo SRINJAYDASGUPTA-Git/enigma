@@ -9,7 +9,7 @@ const Navbar = ({activeElement}:NavbarProps) => {
         (Array.isArray(value) && value.some((val)=>val?.value === activeElement?.value));
   return (
     <nav className='flex-between select-none gap-4 bg-primary-black px-5 text-white '>
-        <Image src='/assets/logo.svg' alt='Enigma Logo' width={58} height={20} />
+        <Image src='/assets/logo.svg' alt='Enigma Logo' width={100} height={20} />
         <ActiveUsers />
     </nav>
   )
